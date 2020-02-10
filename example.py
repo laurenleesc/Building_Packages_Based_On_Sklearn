@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.discrete.discrete_model import Logit
+from high_dim_log_reg import HDLR
 
 #from high_dim_log_reg.datasets import bernoulli
 
