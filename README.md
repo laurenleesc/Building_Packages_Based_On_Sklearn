@@ -6,19 +6,14 @@ This is a work in progress. Distributed under the 3-Clause BSD license.
 
 Package Outline:
 
-1. .help
-      a. Should have some examples, with the provided simulated datasets.
-      b. Should explain each function.
-2. .data
-      2. Simulated datasets, of varying n, p. Stores the known signals as well.
-3. logistic.params (similar/built on top of sklearn)
-      3. Should check for existance of MLE
-      3. Should correct the bias with formula from paper
-4. .diagnostics
-      4. Any out of the box plots?
+1. .help  
+   a. Should have some examples, with the provided simulated datasets.  
+   b. Should explain each function.
+2. .data  
+   a. Simulated datasets, of varying n, p. Stores the known signals as well.  
+3. logistic.params (similar/built on top of sklearn)  
+      3. Should check for existance of MLE  
+      3. Should correct the bias with formula from paper  
+4. .diagnostics  
+      4. Any out of the box plots?  
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
