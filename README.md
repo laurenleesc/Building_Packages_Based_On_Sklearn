@@ -17,3 +17,7 @@ This is a work in progress. Distributed under the 3-Clause BSD license.
 4. **diagnostics**  
    a. Any out-of-the-box plots?  
 
+# Notes to team:
+
+Right now, ignore the definitions in the HDLR class in hdlr.py.  I am trying to reproduce the way https://github.com/scikit-learn-contrib/skope-rules/blob/master/skrules/skope_rules.py is developing on top of sklearn. It compiles but is probably not right yet.
+
