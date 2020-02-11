@@ -4,7 +4,7 @@ Goal: to correct the bias in the coefficients (betas) produced from MLE in high 
 
 This is a work in progress. Distributed under the 3-Clause BSD license.
 
-Package Outline Draft (to be filled in the file structure eventually):
+# Package Outline Draft (to be filled in the file structure eventually):
 
 1. **help**  
    a. Should have some examples, with the provided simulated datasets.  
