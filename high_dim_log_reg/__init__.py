@@ -1,3 +1,3 @@
-from .hdlr import HDLR
+from .hdlr2 import hdlr2
 
-__all__ = ['HDLR']
+__all__ = ['hdlr2']
