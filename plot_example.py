@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.discrete.discrete_model import Logit
 from sklearn.linear_model import LogisticRegression
-from high_dim_log_reg import HDLR
+#from high_dim_log_reg import HDLR
 
 #from high_dim_log_reg.datasets import bernoulli
 
