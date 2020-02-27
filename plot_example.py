@@ -29,6 +29,7 @@ print("Average |Diff| minus |SE|:                    "+str(np.mean(abs(diff)-abs
 
 n=len(X)
 p=len(b)
+#The mu and stdev are known from when we generated the data.
 mu = 0
 stdev = 1.0
 
