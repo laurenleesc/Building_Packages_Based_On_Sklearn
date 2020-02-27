@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.discrete.discrete_model import Logit
 from sklearn.linear_model import LogisticRegression
-from high_dim_log_reg import hdlr2
+from high_dim_log_reg import Hdlr
 
 #from high_dim_log_reg.datasets import bernoulli
 
@@ -29,7 +29,7 @@ est_betas2 = result2.coef_
 
 #Lastly, with our new function, no bias correction yet 
 
-model3 = hdlr2()
+model3 = Hdlr()
 result3 = model3.fit(X, y)
 
 est_betas3 = result3.coef_
