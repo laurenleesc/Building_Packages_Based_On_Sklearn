@@ -1,27 +1,6 @@
-# High_Dimensional_Logistic_Regression
+# Building Packages Based On Sklearn
 
-Goal: to correct the bias in the coefficients (betas) produced from MLE in high dimensions.  See this paper: https://www.pnas.org/content/116/29/14516.short
+This package was originally built to deploy a bias correction in the coefficients (betas) for high dimensional logistic regression, based on the following paper: https://www.pnas.org/content/116/29/14516.short. So far, we have not been able to figure out the math, and so currently this project has an example "dummy" bias correction factor: if the beta estimate is negative, it adds a 1, if it is positive, it subtracts a 1.  This is a place-holder for real bias correction factors.
 
-This is a work in progress. Distributed under the 3-Clause BSD license.
-
-# Package Outline Draft (to be filled in the file structure eventually):
-
-1. **help**  
-   a. Should have some examples, with the provided simulated datasets.  
-   b. Should explain each function.
-2. **data**  
-   a. Simulated datasets, of varying n, p. Stores the known signals as well.  
-3. **logistic.params** (similar/built on top of sklearn)  
-   a. Should check for existance of MLE  
-   b. Should correct the bias with formula from paper  
-4. **diagnostics**  
-   a. Any out-of-the-box plots?  
-
-# Notes to team:
-
-Right now, there is a "dummy" bias correction factor in high_dim_log_reg hdlr.py. This is where we will type over with our real correction factor.
-
-scaling_investigation.py-will normalization prevent this phenomenon from happening? My first/singleton experiment shows no. 
-
-What naming convention should we use for our datasets? and, what experimental space should the examples cover?
+This is a work in progress. Use at your own risk. Distributed under the 3-Clause BSD license.
 
